@@ -18,6 +18,10 @@ Core components of Docker:
 - Docker daemon: Also called dockerd, listens for Docker API requests and manages Docker objects such as images, containers, networks and volumes
 - Docker client: This is the primary way users interact with Docker via a command line interface(CLI). When you run commands like docker pull or docker run, it uses REST API to send these commands to Docker daemon
 - Docker host: This is where docker daemon runs providing environment and resources to run containers
-- Docker registry: These are services that store and distribute docker images
+- Docker registry: These are services that store and distribute docker images. Docker hub is the public registry maintained by Docker while there are many private registries as well
 - Docker images: Images are read-only template which contain a set of instructions to create a docker container
 - Docker containers: A container is a runnable instance of an image
+
+## What happens when you run a container in detached mode?
+
+The container runs but in the background
